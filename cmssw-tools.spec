@@ -5,8 +5,10 @@
 ## UPLOAD_DEPENDENCIES dqmgui
 
 Requires: AXOL1TL
+Requires: TOPO
 Requires: CICADA
 Requires: OpenBLAS
+Requires: acts
 Requires: celeritas
 Requires: crab
 Requires: cmssw-wm-tools
@@ -150,7 +152,7 @@ Requires: python_tools
 Requires: dablooms
 Requires: zlib
 Requires: rivet
-
+Requires: xtd
 
 # Only for Linux platform.
 %ifos linux
@@ -190,7 +192,6 @@ Requires: oracle-fake
 Requires: xtensor
 Requires: xtl
 Requires: xgboost
-Requires: pytorch
 Requires: pytorch-custom-ops
 
 ## INCLUDE tfaot-models
